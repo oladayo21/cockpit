@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "ui for cockpit cms",
   "author": "Oladayo Fagbemi <oladayo.fagbemi@axelspringer.com>",
+  "main": "./index.tsx",
   "homepage": "https://github.com/oladayo21/cockpit#readme",
   "license": "ISC",
   "repository": {
