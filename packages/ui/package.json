@@ -1,0 +1,19 @@
+{
+  "name": "@cockpit/ui",
+  "version": "0.0.1",
+  "description": "ui for cockpit cms",
+  "author": "Oladayo Fagbemi <oladayo.fagbemi@axelspringer.com>",
+  "homepage": "https://github.com/oladayo21/cockpit#readme",
+  "license": "ISC",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oladayo21/cockpit.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/oladayo21/cockpit/issues"
+  }
+}
