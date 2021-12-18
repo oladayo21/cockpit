@@ -1,0 +1,25 @@
+{
+  "name": "@cockpit/root",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oladayo21/cockpit.git"
+  },
+  "workspaces": [
+    "packages/*",
+    "packages/*/*",
+    "examples/*"
+  ],
+  "scripts": {
+    "setup": "yarn && yarn build",
+    "watch": "lerna run --stream watch --no-private",
+    "build": "lerna run --stream build --no-private"
+  },
+  "private": true,
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
+  }
+}
