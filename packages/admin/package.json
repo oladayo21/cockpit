@@ -2,5 +2,23 @@
   "name": "@cockpit/admin",
   "version": "0.0.1",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development node server.js"
+  },
+  "dependencies": {
+    "compression": "^1.7.4",
+    "cross-env": "^7.0.3",
+    "express": "^4.17.1",
+    "fs-extra": "^10.0.0",
+    "history": "^5.2.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router": "6.2.1",
+    "react-router-dom": "6.2.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^1.0.5",
+    "vite": "^2.7.3"
+  }
 }

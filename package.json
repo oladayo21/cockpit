@@ -10,6 +10,7 @@
   "scripts": {
     "setup": "yarn && yarn build",
     "dev": "lerna run --parallel dev --no-private",
+    "dev:admin":"lerna run --stream dev --scope=@cockpit/admin",
     "watch": "lerna run --stream watch --no-private",
     "build": "lerna run --stream build --no-private"
   },
