@@ -5,9 +5,7 @@
     "url": "https://github.com/oladayo21/cockpit.git"
   },
   "workspaces": [
-    "packages/*",
-    "packages/*/*",
-    "examples/*"
+    "packages/*"
   ],
   "scripts": {
     "setup": "yarn && yarn build",
